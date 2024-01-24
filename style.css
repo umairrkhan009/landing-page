@@ -1,0 +1,169 @@
+body{
+    height: 100vh;
+    margin: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 300px;
+    background-color: #1f2937;
+}
+
+.logo{
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 100px 300px;
+    gap: 50px;
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.first{
+    font-size: 68px;
+    font-weight: bolder;
+    color: white;
+}
+
+.second{
+    font-size: 28px;
+    color: #e5e7eb;
+}
+
+.btn button{
+    background-color: #3882f6;
+    color: white;
+    font-size: 26px;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+
+.info{
+    margin: 50px;
+}
+
+.title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.reviews{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 150px;
+    text-align: center;
+}
+
+.info img{
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+.qoute{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 400px;
+    gap: 20px;
+}
+
+.line{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.auth{
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.signup{
+    background-color: #3882f6;
+    margin: 100px 350px;
+    border-radius: 8px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.product{
+    color: white;
+    font-size: 20px;
+
+}
+
+.daya button{
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy{
+    font-size: 25px;
+    padding: 40px;
+}
